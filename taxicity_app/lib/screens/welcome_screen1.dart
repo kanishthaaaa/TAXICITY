@@ -31,7 +31,7 @@ class WelcomeScreen1 extends StatelessWidget {
               child: Center(
                 child: Text('Continue logging in',
                 style: GoogleFonts.poppins(
-                  fontSize: 18,
+                  fontSize: 16,
                 ),),
               ),
               decoration: BoxDecoration(
@@ -39,10 +39,10 @@ class WelcomeScreen1 extends StatelessWidget {
                 color:  const Color.fromARGB(255, 115, 255, 187),
                 ),
             ),
-            SizedBox(height: 10,),
+            SizedBox(height: 8,),
             Center(child: Text('Don\'t have an account? Sign Up',
             style: GoogleFonts.poppins(
-              fontSize: 15,
+              fontSize: 14,
             ),),),
           ],
         ),
