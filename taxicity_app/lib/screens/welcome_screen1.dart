@@ -32,7 +32,7 @@ class WelcomeScreen1 extends StatelessWidget {
             onTap: (){
               Navigator.push(context, MaterialPageRoute(builder: (context) =>const LoginScreen()));
             }, 
-            muButtonColor: const Color.fromARGB(255, 115, 255, 187),),
+            myButtonColor: const Color.fromARGB(255, 115, 255, 187),),
             SizedBox(height: 8,),
             Center(child: Text('Don\'t have an account? Sign Up',
             style: GoogleFonts.poppins(
