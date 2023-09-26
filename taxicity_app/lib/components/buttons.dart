@@ -4,11 +4,11 @@ import 'package:google_fonts/google_fonts.dart';
 class MyButton extends StatelessWidget{
   final String myButtonText;
   final Function()? onTap;
-  final Color muButtonColor;
+  final Color myButtonColor;
   const MyButton({super.key, 
   required this.myButtonText, 
   required this.onTap, 
-  required this.muButtonColor});
+  required this.myButtonColor});
 
   @override
   Widget build(BuildContext context) {
@@ -17,14 +17,14 @@ class MyButton extends StatelessWidget{
       child: Container(
                 height: 50,
                 child: Center(
-                  child: Text('Continue logging in',
+                  child: Text(myButtonText,
                   style: GoogleFonts.poppins(
                     fontSize: 16,
                   ),),
                 ),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(12),
-                  color:  const Color.fromARGB(255, 115, 255, 187),
+                  color: myButtonColor ,
                   boxShadow: [
                     BoxShadow(
                       color: Colors.grey,
